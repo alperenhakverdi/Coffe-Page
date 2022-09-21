@@ -1,0 +1,44 @@
+
+
+.text-center {
+    text-align:center;
+}
+
+.heading-small {
+    font-size:1.25rem;
+}
+
+.heading-medium {
+    font-size:1.5rem;
+}
+.heading-big {
+
+    font-size:1.75rem;
+}
+
+/* Colors */
+.bg-yellow {
+    background-color:#FFC017;
+}
+
+.bg-white {
+
+    background-color:#fff;
+}
+
+.bg-blue {
+    background-color:#003399;
+}
+
+.bg-black {
+    background-color:black;
+}
+
+/* Container */
+
+.container {
+    max-width:1100px;
+    margin: 0 auto;
+}
+
+
