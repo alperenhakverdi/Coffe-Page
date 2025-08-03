@@ -1,9 +1,44 @@
+/* ---------------------- */
+/*      NAVBAR (Mobil)    */
+/* ---------------------- */
 #navbar {
     flex-direction: column;
-    padding-top:0.5rem;
-    padding-bottom:0.5rem; 
-    overflow:hidden;
-    height:90px;
-    
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+    height: auto;
+}
 
+#navbar ul {
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+#navbar ul li a {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+/* ---------------------- */
+/*       CONTAINER        */
+/* ---------------------- */
+.container {
+    padding: 0.5rem;
+}
+
+/* ---------------------- */
+/*        HOME IMG        */
+/* ---------------------- */
+#home img {
+    height: auto;
+    max-height: 200px;
+}
+
+/* ---------------------- */
+/*      ABOUT IMG         */
+/* ---------------------- */
+#about img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 5px;
 }
