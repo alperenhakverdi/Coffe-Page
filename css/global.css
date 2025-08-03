@@ -1,44 +1,56 @@
-
-
-.text-center {
-    text-align:center;
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Metin Hizalama */
+.text-center {
+    text-align: center;
+}
+
+/* Başlık Boyutları */
 .heading-small {
-    font-size:1.25rem;
+    font-size: 1.25rem;
 }
 
 .heading-medium {
-    font-size:1.5rem;
+    font-size: 1.5rem;
 }
+
 .heading-big {
-
-    font-size:1.75rem;
+    font-size: 1.75rem;
 }
 
-/* Colors */
+/* Arka Plan Renkleri */
 .bg-yellow {
-    background-color:#FFC017;
+    background-color: #FFC017;
 }
 
 .bg-white {
-
-    background-color:#fff;
+    background-color: #fff;
 }
 
 .bg-blue {
-    background-color:#003399;
+    background-color: #003399;
 }
 
 .bg-black {
-    background-color:black;
+    background-color: black;
 }
 
-/* Container */
-
+/* Ortak Genişlik Alanı */
 .container {
-    max-width:1100px;
+    max-width: 1100px;
     margin: 0 auto;
 }
-
-
